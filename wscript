@@ -799,6 +799,10 @@ video_output_features = [
         'desc': 'Sixel',
         'func': check_pkg_config('libsixel', '>= 1.5'),
     }, {
+        'name': '--kitty',
+        'desc': 'Kitty',
+        'func': check_true,
+    }, {
         'name': 'dmabuf-interop-gl',
         'desc': 'dmabuf GL Interop',
         'deps': 'egl && drm',

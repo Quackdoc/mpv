@@ -119,7 +119,9 @@ const struct vo_driver *const video_out_drivers[] =
 #if HAVE_SIXEL
     &video_out_sixel,
 #endif
+#if HAVE_KITTY
     &video_out_kitty,
+#endif
     &video_out_lavc,
     NULL
 };
