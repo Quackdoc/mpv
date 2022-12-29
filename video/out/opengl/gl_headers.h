@@ -796,4 +796,7 @@ typedef unsigned short GLhalf;
 #define GL_NUM_SAMPLE_COUNTS              0x9380
 #define GL_TEXTURE_IMMUTABLE_LEVELS       0x82DF
 
+// ---- GLES Extensions
+#define GL_BGRA8_EXT                      0x93A1
+
 #endif

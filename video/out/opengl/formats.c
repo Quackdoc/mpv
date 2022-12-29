@@ -16,6 +16,7 @@ const struct gl_format gl_formats[] = {
     {"rg8",     GL_RG8,      GL_RG,              T_U8,  F_CF | F_GL3 | F_GL2F | F_ES3},
     {"rgb8",    GL_RGB8,     GL_RGB,             T_U8,  F_CF | F_GL3 | F_GL2F | F_ES3},
     {"rgba8",   GL_RGBA8,    GL_RGBA,            T_U8,  F_CF | F_GL3 | F_GL2F | F_ES3},
+    {"bgra8",   GL_BGRA8_EXT,    GL_BGRA8_EXT,   T_U8,  F_CF | F_GL3 | F_GL2F | F_ES3},
     {"r16",     GL_R16,      GL_RED,             T_U16, F_CF | F_GL3 | F_GL2F | F_EXT16},
     {"rg16",    GL_RG16,     GL_RG,              T_U16, F_CF | F_GL3 | F_GL2F | F_EXT16},
     {"rgb16",   GL_RGB16,    GL_RGB,             T_U16, F_CF | F_GL3 | F_GL2F},
