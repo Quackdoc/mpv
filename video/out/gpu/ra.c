@@ -114,7 +114,7 @@ struct glsl_fmt {
 };
 
 // List taken from the GLSL specification, sans snorm and sint formats
-static const struct glsl_fmt ra_glsl_fmts[] = {
+static const struct glsl_fmt ra_glsl_fmts[] = { //needs editing?
     {RA_CTYPE_FLOAT, 1, {16},             "r16f"},
     {RA_CTYPE_FLOAT, 1, {32},             "r32f"},
     {RA_CTYPE_FLOAT, 2, {16, 16},         "rg16f"},
@@ -128,6 +128,7 @@ static const struct glsl_fmt ra_glsl_fmts[] = {
     {RA_CTYPE_UNORM, 2, {8,  8},          "rg8"},
     {RA_CTYPE_UNORM, 2, {16, 16},         "rg16"},
     {RA_CTYPE_UNORM, 4, {8,  8,  8,  8},  "rgba8"},
+    {RA_CTYPE_UNORM, 4, {8,  8,  8,  8},  "bgra8"},
     {RA_CTYPE_UNORM, 4, {16, 16, 16, 16}, "rgba16"},
     {RA_CTYPE_UNORM, 4, {10, 10, 10,  2}, "rgb10_a2"},
 
@@ -138,6 +139,7 @@ static const struct glsl_fmt ra_glsl_fmts[] = {
     {RA_CTYPE_UINT,  2, {16, 16},         "rg16ui"},
     {RA_CTYPE_UINT,  2, {32, 32},         "rg32ui"},
     {RA_CTYPE_UINT,  4, {8,  8,  8,  8},  "rgba8ui"},
+    {RA_CTYPE_UINT,  4, {8,  8,  8,  8},  "bgra8ui"},
     {RA_CTYPE_UINT,  4, {16, 16, 16, 16}, "rgba16ui"},
     {RA_CTYPE_UINT,  4, {32, 32, 32, 32}, "rgba32ui"},
     {RA_CTYPE_UINT,  4, {10, 10, 10,  2}, "rgb10_a2ui"},

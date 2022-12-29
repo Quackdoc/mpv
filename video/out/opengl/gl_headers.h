@@ -798,5 +798,6 @@ typedef unsigned short GLhalf;
 
 // ---- GLES Extensions
 #define GL_BGRA8_EXT                      0x93A1
+#define GL_BGRA_EXT                       0x80E1    
 
 #endif
